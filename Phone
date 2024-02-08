@@ -1,0 +1,5 @@
+public class Phone {
+    private int charge;
+    private boolean on;
+    private String type;
+}
