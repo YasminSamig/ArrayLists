@@ -1,0 +1,40 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+import java.util.ArrayList;
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Integer> nums = new ArrayList<Integer>();
+        for (int i = 0; i<10;i++) {
+            nums.add(0, i);
+        }
+        ArrayList<Double> duble = new ArrayList<Double>();
+        for (double i = 0; i<10;i+= 0.5) {
+            duble.add(0, i);
+        }
+        ArrayList<Boolean> bolen = new ArrayList<Boolean>();
+        for (int i = 0; i<10;i++) {
+            if (i % 2 == 0) bolen.add(0, true);
+        }
+        ArrayList<String> str = new ArrayList<String>();
+        for (int i = 0; i<10;i++) {
+            if (i % 3 == 0) str.add(0, "multiple of three");
+        }
+        ArrayList<Phone> phn = new ArrayList<Phone>();
+        for (int i = 0; i<10;i++) {
+            if (i % 4 != 0) phn.add(0, new Phone());
+        }
+        ArrayList lol = new ArrayList();
+        lol.add(0.5);
+        lol.add("string");
+        lol.add(false);
+        System.out.println(nums);
+        System.out.println(duble);
+        System.out.println(bolen);
+        System.out.println(str);
+        System.out.println(phn);
+        System.out.println(lol);
+
+
+
+
+    }
+}
